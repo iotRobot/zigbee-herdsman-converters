@@ -25420,7 +25420,7 @@ export const definitions: DefinitionWithExtend[] = [
                 .withValueMax(500)
                 .withValueStep(1)
                 .withUnit("times")
-                .withDescription("Vibration times"),
+                .withDescription("Vibration count detected by the vibration sensor"),
             e
                 .numeric("sampling_interval", ea.STATE_SET)
                 .withValueMin(5)
