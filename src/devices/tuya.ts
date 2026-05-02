@@ -26329,7 +26329,7 @@ export const definitions: DefinitionWithExtend[] = [
                 .withValueMin(-40)
                 .withValueMax(120)
                 .withValueStep(1)
-                .withUnit("\u00B0C")
+                .withUnit("°C")
                 .withDescription("Probe temperature sensor"),
             e.temperature(),
             e.humidity(),
@@ -26345,7 +26345,7 @@ export const definitions: DefinitionWithExtend[] = [
                 .withValueMin(0.1)
                 .withValueMax(130)
                 .withValueStep(1)
-                .withUnit("\u2030")
+                .withUnit("‰")
                 .withDescription("Salinity value(0.1‰~13‰)"),
             e
                 .numeric("ec", ea.STATE)
@@ -26353,7 +26353,7 @@ export const definitions: DefinitionWithExtend[] = [
                 .withValueMax(20000)
                 .withValueStep(1)
                 .withUnit("μS/cm")
-                .withDescription("EC value(0~20000 uS/cm)"),
+                .withDescription("EC value(0~20000 μS/cm)"),
             e.numeric("sg", ea.STATE).withValueMin(1000).withValueMax(1100).withValueStep(1).withDescription("specific gravity(1.000~1.100)"),
 
             e
@@ -26369,21 +26369,21 @@ export const definitions: DefinitionWithExtend[] = [
                 .withValueMin(-2)
                 .withValueMax(2)
                 .withValueStep(0.1)
-                .withUnit("\u00B0C")
+                .withUnit("°C")
                 .withDescription("Probe temperature sensor calibration"),
             e
                 .numeric("probe_temperature_v0_set", ea.STATE_SET)
                 .withValueMin(-40)
                 .withValueMax(125)
                 .withValueStep(1)
-                .withUnit("\u00B0C")
+                .withUnit("°C")
                 .withDescription("Probe temperature sensor v0 threshold setting"),
             e
                 .numeric("probe_temperature_v1_set", ea.STATE_SET)
                 .withValueMin(-40)
                 .withValueMax(125)
                 .withValueStep(1)
-                .withUnit("\u00B0C")
+                .withUnit("°C")
                 .withDescription("Probe temperature sensor v1 threshold setting"),
 
             e
@@ -26414,21 +26414,21 @@ export const definitions: DefinitionWithExtend[] = [
                 .withValueMin(-2)
                 .withValueMax(2)
                 .withValueStep(0.1)
-                .withUnit("\u00B0C")
+                .withUnit("°C")
                 .withDescription("Temperature calibration"),
             e
                 .numeric("temperature_v0_set", ea.STATE_SET)
                 .withValueMin(-40)
                 .withValueMax(85)
                 .withValueStep(1)
-                .withUnit("\u00B0C")
+                .withUnit("°C")
                 .withDescription("Temperature v0 threshold setting"),
             e
                 .numeric("temperature_v1_set", ea.STATE_SET)
                 .withValueMin(-40)
                 .withValueMax(85)
                 .withValueStep(1)
-                .withUnit("\u00B0C")
+                .withUnit("°C")
                 .withDescription("Temperature v1 threshold setting"),
 
             e
