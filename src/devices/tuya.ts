@@ -25415,7 +25415,7 @@ export const definitions: DefinitionWithExtend[] = [
             e.battery(),
             e.illuminance(),
             e
-                .numeric("vibration_times", ea.STATE)
+                .numeric("vibration_count", ea.STATE)
                 .withValueMin(0)
                 .withValueMax(500)
                 .withValueStep(1)
@@ -25463,7 +25463,7 @@ export const definitions: DefinitionWithExtend[] = [
                 [3, "vibration", tuya.valueConverter.raw],
                 [6, "vibration_sensitivity", tuya.valueConverter.raw],
                 [20, "illuminance", tuya.valueConverter.raw],
-                [50, "vibration_times", tuya.valueConverter.raw],
+                [50, "vibration_count", tuya.valueConverter.raw],
                 [101, "sampling_interval", tuya.valueConverter.raw],
                 [104, "illuminance_v0", tuya.valueConverter.raw],
                 [105, "illuminance_v1", tuya.valueConverter.raw],
